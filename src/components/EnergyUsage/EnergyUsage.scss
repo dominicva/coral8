@@ -1,0 +1,25 @@
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+
+.energy-usage {
+  margin-top: 2rem;
+  &__heading {
+    @include card-heading;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  &__buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__card {
+    color: white;
+    background-color: $base-dark;
+    margin-top: 1rem;
+    border-radius: $border-radius;
+  }
+}
