@@ -13,13 +13,13 @@ function App() {
             path="/"
             element={
               <div>
-                <h1>Main page</h1>
+                <h1>Home</h1>
               </div>
             }
           />
           <Route path="/page" element={<Page />} />
         </Routes>
-        <SelectedProductCard  />
+        <SelectedProductCard />
         <NavBar />
       </BrowserRouter>
     </div>
