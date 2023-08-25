@@ -1,3 +1,17 @@
+@use './variables' as *;
+
+@mixin card {
+  background-color: $base-dark;
+  padding: 1.5rem 1rem;
+  border-radius: 0.75rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+@mixin card-heading {
+  color: $text-main;
+  text-align: center;
+}
 // @mixin container {
 //   padding: 0 1rem;
 // }

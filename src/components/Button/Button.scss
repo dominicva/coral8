@@ -1,0 +1,14 @@
+@use '../../partials/variables' as *;
+
+.button {
+  background-color: transparent;
+  border: none;
+  border-radius: 2.5rem;
+  padding: 0.75rem 1.5rem;
+  color: $text-main;
+  font-weight: 600;
+}
+
+.button.active {
+  background-color: $secondary-main;
+}

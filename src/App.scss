@@ -1,1 +1,6 @@
 @use './partials/mixins' as *;
+@use './partials/variables' as *;
+
+.App {
+  background-color: $base-main;
+}
