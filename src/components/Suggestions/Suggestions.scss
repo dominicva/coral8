@@ -1,0 +1,41 @@
+@use "../../partials/variables" as *;
+.suggestions{
+    &__wrapper{
+        padding: 0 1rem;
+    }
+
+    &__title{
+        color: $text-dark;
+        font-size: 1.1rem;
+    }
+    &__card{
+        background-color: $secondary-dark;
+        border-radius: 8px;
+        margin: 0.5rem 0;
+        display: flex;
+        padding: 1rem 0.75rem 1rem 0.9rem;
+    }
+
+    &__icon{
+        width: 1.6rem;;
+        height: 2rem;
+        flex-shrink: 0;
+
+        &--modified{
+            width: 2rem;
+        }
+    }
+
+    &__description{
+        color: white;
+        padding-left: 1rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        &--edited{
+            padding-left: 1.5rem;
+        }
+    }
+
+
+    
+}

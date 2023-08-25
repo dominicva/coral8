@@ -1,0 +1,62 @@
+@use './variables' as *;
+
+@mixin card {
+  background-color: $base-dark;
+  padding: 1.5rem 1rem;
+  border-radius: 0.75rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+@mixin card-heading {
+  color: $text-main;
+  text-align: center;
+}
+// @mixin container {
+//   padding: 0 1rem;
+// }
+
+// @mixin primary-button {
+//   background-color: $primary-color;
+//   color: $secondary-color;
+//   // border: 1px solid $secondary-color;
+//   padding: 0.5rem 1rem;
+//   border-radius: 0.25rem;
+//   cursor: pointer;
+//   transition: all 0.2s ease-in-out;
+
+//   &:hover {
+//     // background-color: $secondary-color;
+//     // color: $primary-color;
+//   }
+// }
+
+// @mixin secondary-button {
+//   background-color: $tertiary-color;
+//   color: $secondary-color;
+//   border: 1px solid $secondary-color;
+//   padding: 0.5rem 1rem;
+//   border-radius: 0.25rem;
+//   cursor: pointer;
+//   transition: all 0.2s ease-in-out;
+
+//   &:hover {
+//     background-color: $secondary-color;
+//     color: $tertiary-color;
+//   }
+// }
+
+// @mixin body-text {
+//   font-size: 1rem;
+//   color: $secondary-color;
+// }
+
+// @mixin heading-text {
+//   font-size: 1.5rem;
+//   color: $secondary-color;
+// }
+
+// @mixin subheading-text {
+//   font-size: 1.25rem;
+//   color: $secondary-color;
+// }
