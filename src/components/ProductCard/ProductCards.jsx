@@ -6,6 +6,9 @@ import monthscards from "../../assets/12-months-cards.png";
 function ProductCards() {
     return(
         <>
+        <section className="ProductCards__title">
+            <h1>Make a better use of your funds</h1>
+        </section>
         <section className="ProductCards__container">
        <img 
             className="ProductCards"
