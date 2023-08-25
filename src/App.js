@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Page from './components/Page';
 import './App.scss';
 import NavBar from './components/NavBar/NavBar';
+import { Progress } from './components/Progress';
 
 function App() {
   return (
@@ -11,8 +12,13 @@ function App() {
           <Route
             path="/"
             element={
-              <div>
-                <h1>Main page</h1>
+              <div
+                style={{
+                  padding: '20px',
+                }}
+              >
+                <h1>Home</h1>
+                <Progress />
               </div>
             }
           />
