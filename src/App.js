@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Page from './components/Page';
 import './App.scss';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
@@ -11,13 +12,13 @@ function App() {
             path="/"
             element={
               <div>
-                <h1>Home page</h1>
-                <Link to="/page">Go to another page</Link>
+                <h1>Main page</h1>
               </div>
             }
           />
           <Route path="/page" element={<Page />} />
         </Routes>
+        <NavBar />
       </BrowserRouter>
     </div>
   );
