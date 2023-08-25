@@ -7,21 +7,16 @@ import SelectedProductCard from './components/SelectedProductCard/SelectedProduc
 import { PieChart } from './components/PieChart';
 import { EnergyUsage } from './components/EnergyUsage';
 import { Progress } from './components/Progress';
+import SavingsPage from './pages/SavingsPage/SavingsPage';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<div className="home">Home</div>} />
+          <Route path="/" element={<SavingsPage />} />
           <Route path="/page" element={<Page />} />
         </Routes>
-        <PieChart />
-        <ProductCards />
-        <SelectedProductCard />
-        <Progress />
-        <EnergyUsage />
-        <NavBar />
       </BrowserRouter>
     </div>
   );
