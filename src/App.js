@@ -12,13 +12,8 @@ function App() {
           <Route
             path="/"
             element={
-              <div
-                style={{
-                  padding: '20px',
-                }}
-              >
+              <div>
                 <h1>Home</h1>
-                <Progress />
               </div>
             }
           />
