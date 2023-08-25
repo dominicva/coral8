@@ -14,7 +14,7 @@ function Suggestions() {
             alt="washing machine icon"
             className="suggestions__icon"
           />
-          <p className="suggestions__description">
+          <p className="suggestions__description suggestions__description--edited ">
             Do you wash clothes at night? Put the washing out before you go to
             bed around 23:30 and it'll be done in the morning!
           </p>
