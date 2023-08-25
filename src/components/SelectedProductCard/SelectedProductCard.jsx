@@ -1,11 +1,11 @@
-import progressCard from '../../assets/progress-card.png';
+import selectedProduct from '../../assets/selected-product.png';
 import './SelectedProductCard.scss';
 
 function SelectedProductCard() {
   return (
     <img
-      src={progressCard}
-      alt="playstation, octopus logo and edit goal button"
+      src={selectedProduct}
+      alt="selected product"
       className="selected-product-card"
     />
   );
