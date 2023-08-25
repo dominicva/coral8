@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Page from './components/Page';
 import './App.scss';
 import NavBar from './components/NavBar/NavBar';
 import SavingsPage from './pages/SavingsPage/SavingsPage';

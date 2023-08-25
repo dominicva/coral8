@@ -20,11 +20,18 @@ export default function EnergyUsage() {
       <div className="energy-usage__card">
         <h2 className="energy-usage__heading">Your energy usage</h2>
         {active === 'week' ? (
-          <img src={barChartWeek} alt="bar chart" />
+          <img
+            src={barChartWeek}
+            alt="bar chart"
+            className="energy-usage__bar-chart"
+          />
         ) : (
-          <img src={barChartMonth} alt="bar chart" />
+          <img
+            src={barChartMonth}
+            alt="bar chart"
+            className="energy-usage__bar-chart"
+          />
         )}
-        <div style={{ textAlign: 'center' }}>Bar chart goes here</div>
       </div>
     </article>
   );
