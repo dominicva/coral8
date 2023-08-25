@@ -1,3 +1,16 @@
+@use '../../partials/variables' as *;
+
 .savings-page {
   padding: 1rem;
+
+  &__intro-heading {
+    color: $text-main;
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+  }
+
+  &__intro-body {
+    color: white;
+    font-size: 1rem;
+  }
 }
