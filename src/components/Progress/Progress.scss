@@ -3,8 +3,14 @@
 
 .progress {
   background-color: $base-dark;
-  padding: 1.5rem 1rem;
-  border-radius: 0.75rem;
-  display: flex;
-  gap: 1.5rem;
+  color: white;
+
+  &__heading,
+  &__percentage {
+    color: $text-main;
+  }
+  // padding: 1.5rem 1rem;
+  // border-radius: 0.75rem;
+  // display: flex;
+  // gap: 1.5rem;
 }
