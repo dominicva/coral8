@@ -1,14 +1,30 @@
-@use "../../partials/variables" as *;
+@use '../../partials/variables' as *;
 
+.ProductCards__heading {
+  font-weight: 600;
+  color: $text-main;
+  font-size: 1.25rem;
+}
 .ProductCards__container {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1.5rem;
 }
 .ProductCards__title {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    // color: $text-main;
-    
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
 
+.product-cards__buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  button {
+    display: block;
+    width: 10rem;
+  }
 }
