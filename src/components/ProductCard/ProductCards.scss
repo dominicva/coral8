@@ -1,0 +1,14 @@
+@use "../../partials/variables" as *;
+
+.ProductCards__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.ProductCards__title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    // color: $text-main;
+    
+
+}
