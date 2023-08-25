@@ -1,0 +1,37 @@
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+
+.progress {
+  background-color: $base-dark;
+  color: white;
+  padding: 1.75rem 2rem 1.5rem;
+  border-radius: $border-radius;
+
+  &__heading {
+    @include card-heading;
+  }
+
+  &__savings {
+    display: block;
+    text-align: right;
+    margin-bottom: 6px;
+    margin-right: 1px;
+    color: $text-dark;
+  }
+
+  &__bar {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  &__percentage {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+  &__text {
+    color: $text-light;
+    text-align: center;
+  }
+}
