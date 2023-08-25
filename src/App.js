@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Page from './components/Page';
 import './App.scss';
 import NavBar from './components/NavBar/NavBar';
+import ProductCards from './components/ProductCard/ProductCards';
 import SelectedProductCard from './components/SelectedProductCard/SelectedProductCard';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           />
           <Route path="/page" element={<Page />} />
         </Routes>
+        <ProductCards />
         <SelectedProductCard />
         <NavBar />
       </BrowserRouter>
