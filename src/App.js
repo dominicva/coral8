@@ -3,6 +3,7 @@ import Page from './components/Page';
 import './App.scss';
 import NavBar from './components/NavBar/NavBar';
 import SelectedProductCard from './components/SelectedProductCard/SelectedProductCard';
+import Suggestions from './components/Suggestions/Suggestions';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/page" element={<Page />} />
         </Routes>
         <SelectedProductCard  />
+        <Suggestions />
         <NavBar />
       </BrowserRouter>
     </div>

@@ -20,7 +20,7 @@ function Suggestions() {
           </p>
         </div>
         <div className="suggestions__card">
-            <img src={sun} alt="sun icon" className="suggestions__icon" />
+            <img src={sun} alt="sun icon" className="suggestions__icon suggestions__icon--modified" />
             <p className="suggestions__description">
             Let the sun do its thing! Line-dry your laundry on sunny days! Its eco-friendly and wallet friendly.
           </p>
