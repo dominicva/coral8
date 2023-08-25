@@ -1,8 +1,9 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Page from './components/Page';
 import './App.scss';
 import NavBar from './components/NavBar/NavBar';
 import ProductCards from './components/ProductCard/ProductCards';
+import SelectedProductCard from './components/SelectedProductCard/SelectedProductCard';
 
 function App() {
   return (
@@ -13,13 +14,14 @@ function App() {
             path="/"
             element={
               <div>
-                <h1>Main page</h1>
+                <h1>Home</h1>
               </div>
             }
           />
           <Route path="/page" element={<Page />} />
         </Routes>
         <ProductCards />
+        <SelectedProductCard />
         <NavBar />
       </BrowserRouter>
     </div>
