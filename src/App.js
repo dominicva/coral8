@@ -4,6 +4,7 @@ import './App.scss';
 import NavBar from './components/NavBar/NavBar';
 import SavingsPage from './pages/SavingsPage/SavingsPage';
 import Header from './components/Header/Header';
+import { ProgressPage } from './pages/ProgressPage';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<SavingsPage />} />
-          <Route path="/page" element={<Page />} />
+          <Route path="/progress" element={<ProgressPage />} />
         </Routes>
         <NavBar />
       </BrowserRouter>
