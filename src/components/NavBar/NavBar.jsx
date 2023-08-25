@@ -1,4 +1,5 @@
 import navBar from '../../assets/nav-bar.svg';
+import './NavBar.scss';
 
 export default function NavBar() {
   return (
