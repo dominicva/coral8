@@ -9,11 +9,13 @@ import { PieChart } from './components/PieChart';
 import { EnergyUsage } from './components/EnergyUsage';
 import { Progress } from './components/Progress';
 import SavingsPage from './pages/SavingsPage/SavingsPage';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<SavingsPage />} />
           <Route path="/page" element={<Page />} />
