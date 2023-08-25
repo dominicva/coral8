@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './ProductCards.scss';
-import monthcard from '../../assets/1-month-card.png';
-import monthscard from '../../assets/6-months-card.png';
-import monthscards from '../../assets/12-months-cards.png';
+import product1 from '../../assets/product-1.png';
+import product2 from '../../assets/product-2.png';
+import product3 from '../../assets/product-3.png';
 import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 
@@ -18,25 +18,29 @@ function ProductCards() {
         <img
           className={`ProductCards ${active === 'first' ? 'active' : ''}`}
           onClick={() => setActive('first')}
-          src={monthcard}
+          src={product1}
           alt="product"
         />
         <img
           className={`ProductCards ${active === 'second' ? 'active' : ''}`}
           onClick={() => setActive('second')}
-          src={monthscard}
+          src={product2}
           alt="product"
         />
         <img
           className={`ProductCards ${active === 'third' ? 'active' : ''}`}
           onClick={() => setActive('third')}
-          src={monthscards}
+          src={product3}
           alt="product"
         />
       </section>
       <div className="product-cards__buttons-container">
         <Button active={true}>
-          <Link to="/progress" className="product-cards__link">
+          <Link
+            to="/progress"
+            className="product-cards__link"
+            onClick={() => (window.offsetY = 0)}
+          >
             Get Started
           </Link>
         </Button>

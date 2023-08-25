@@ -9,7 +9,7 @@ export default function ProgressPage() {
     <div className="progress-page">
       <p className="progress-page__text--top">
         Great, you selected a{' '}
-        <span className="progress-page__text--top bold">PlayStation 5</span>
+        <span className="progress-page__text--top bold">makeup trolley</span>
       </p>
       <SelectedProductCard />
       <Progress />
