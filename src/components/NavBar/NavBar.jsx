@@ -1,17 +1,9 @@
-import { Link } from 'react-router-dom';
-import './NavBar.scss';
+import navBar from '../../assets/nav-bar.svg';
 
 export default function NavBar() {
   return (
     <nav className="nav">
-      <ul className="nav__list">
-        <li>
-          <Link to="/">Main</Link>
-        </li>
-        <li>
-          <Link to="/page">Other</Link>
-        </li>
-      </ul>
+      <img className="nav__nav-bar" src={navBar} alt="Nav bar" />
     </nav>
   );
 }
