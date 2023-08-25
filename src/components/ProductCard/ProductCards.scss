@@ -28,3 +28,18 @@
     width: 10rem;
   }
 }
+
+.product-cards__link {
+  text-decoration: none;
+  color: $text-main;
+}
+
+.ProductCards {
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.ProductCards.active {
+  border-color: $primary-intense;
+  border-radius: $border-radius;
+}

@@ -3,4 +3,6 @@
 
 .App {
   background-color: $base-main;
+  height: 100vh;
+  overflow: scroll;
 }

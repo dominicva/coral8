@@ -3,10 +3,13 @@
 
 .energy-usage {
   margin-top: 2rem;
+  margin-bottom: 2rem;
+
   &__heading {
     @include card-heading;
     font-weight: normal;
     text-align: center;
+    margin-bottom: 2rem;
   }
 
   &__buttons-container {
@@ -21,5 +24,11 @@
     background-color: $base-dark;
     margin-top: 1rem;
     border-radius: $border-radius;
+    padding: 1.5rem 1rem 2rem;
+  }
+
+  &__bar-chart {
+    height: 7.5rem;
+    margin: auto;
   }
 }
