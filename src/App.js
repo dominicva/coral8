@@ -4,6 +4,7 @@ import './App.scss';
 import NavBar from './components/NavBar/NavBar';
 import ProductCards from './components/ProductCard/ProductCards';
 import SelectedProductCard from './components/SelectedProductCard/SelectedProductCard';
+import Suggestions from './components/Suggestions/Suggestions';
 import { PieChart } from './components/PieChart';
 import { EnergyUsage } from './components/EnergyUsage';
 import { Progress } from './components/Progress';
