@@ -13,14 +13,14 @@ export default function PieChart() {
           <img src={greenLegendCircle} alt="Green Legend Circle" />
           <div>
             <p>Green time</p>
-            <p>23:30 - 5:30</p>
+            <p>23:30 - 05:30</p>
           </div>
         </div>
         <div className="pie__zone-container">
           <img src={redLegendCircle} alt="Red Legend Circle" />
           <div>
             <p>Red zone</p>
-            <p>5:30 - 23:30</p>
+            <p>05:30 - 23:30</p>
           </div>
         </div>
       </div>
